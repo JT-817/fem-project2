@@ -1,0 +1,31 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+.qr-code {  
+    width: 100%;
+    border-radius: 10px;
+}
+.card {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.card-img-top { 
+    padding: auto;
+}
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+.attribution {
+    position: absolute;
+    bottom: 5px;
+    right: 40%;
+}
